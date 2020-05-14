@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		455BCEEF14F59113D6BD450C /* Pods_InfiniteProduceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819FA66BCE645B08D1A2B352 /* Pods_InfiniteProduceTests.framework */; };
+		E7586AAC1E97B8F36C019B9B /* Pods_InfiniteProduceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB66804431CE0E44BBEA2D5B /* Pods_InfiniteProduceUITests.framework */; };
+		F38DF4764DDF14A70D202F36 /* Pods_InfiniteProduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8825E7B5ADA1A3659692F1DF /* Pods_InfiniteProduce.framework */; };
+		F98EB34C1FBF71EE0060FEF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB34B1FBF71EE0060FEF5 /* AppDelegate.swift */; };
+		F98EB34E1FBF71EE0060FEF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB34D1FBF71EE0060FEF5 /* ViewController.swift */; };
+		F98EB3511FBF71EE0060FEF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98EB34F1FBF71EE0060FEF5 /* Main.storyboard */; };
+		F98EB3531FBF71EE0060FEF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F98EB3521FBF71EE0060FEF5 /* Assets.xcassets */; };
+		F98EB3561FBF71EE0060FEF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F98EB3541FBF71EE0060FEF5 /* LaunchScreen.storyboard */; };
+		F98EB3611FBF71EE0060FEF5 /* InfiniteProduceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB3601FBF71EE0060FEF5 /* InfiniteProduceTests.swift */; };
+		F98EB36C1FBF71EE0060FEF5 /* InfiniteProduceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB36B1FBF71EE0060FEF5 /* InfiniteProduceUITests.swift */; };
+		F98EB37D1FBF7A780060FEF5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB37C1FBF7A780060FEF5 /* TableViewCell.swift */; };
+		F98EB37F1FBF8B4D0060FEF5 /* NotesViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98EB37E1FBF8B4D0060FEF5 /* NotesViewViewController.swift */; };
+		F98EB3801FBFA3200060FEF5 /* Generally Speaking.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37A1FBF75B50060FEF5 /* Generally Speaking.ttf */; };
+		F98EB3811FBFA3230060FEF5 /* LillyBelle_2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37B1FBF75BF0060FEF5 /* LillyBelle_2.ttf */; };
+		F98EB3821FBFA3240060FEF5 /* LillyBelle_2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37B1FBF75BF0060FEF5 /* LillyBelle_2.ttf */; };
+		F98EB3831FBFA3250060FEF5 /* LillyBelle_2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37B1FBF75BF0060FEF5 /* LillyBelle_2.ttf */; };
+		F98EB3841FBFA3270060FEF5 /* Generally Speaking.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37A1FBF75B50060FEF5 /* Generally Speaking.ttf */; };
+		F98EB3851FBFA3280060FEF5 /* Generally Speaking.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F98EB37A1FBF75B50060FEF5 /* Generally Speaking.ttf */; };
+		F9BC6245230EAF59001C2575 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BC6244230EAF59001C2575 /* FirstViewController.swift */; };
+		F9BC6247230EC16F001C2575 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9BC6246230EC16F001C2575 /* GoogleService-Info.plist */; };
+		F9BC6249230ECBB2001C2575 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9BC6248230ECBB2001C2575 /* MessageUI.framework */; };
+		F9BC624D230ECF83001C2575 /* todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BC624C230ECF83001C2575 /* todo.swift */; };
+		F9BC624F2313159B001C2575 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BC624E2313159B001C2575 /* ImageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F98EB35D1FBF71EE0060FEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98EB3401FBF71EE0060FEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98EB3471FBF71EE0060FEF5;
+			remoteInfo = InfiniteProduce;
+		};
+		F98EB3681FBF71EE0060FEF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F98EB3401FBF71EE0060FEF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F98EB3471FBF71EE0060FEF5;
+			remoteInfo = InfiniteProduce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30DE1A6C8B6C0A6E5790BC33 /* Pods-InfiniteProduceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduceUITests.release.xcconfig"; path = "Target Support Files/Pods-InfiniteProduceUITests/Pods-InfiniteProduceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE6270A3D41DC2C2FBAA53A /* Pods-InfiniteProduceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduceTests.debug.xcconfig"; path = "Target Support Files/Pods-InfiniteProduceTests/Pods-InfiniteProduceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		819FA66BCE645B08D1A2B352 /* Pods_InfiniteProduceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteProduceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		841819279FD8384596B9A2BA /* Pods-InfiniteProduce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduce.release.xcconfig"; path = "Target Support Files/Pods-InfiniteProduce/Pods-InfiniteProduce.release.xcconfig"; sourceTree = "<group>"; };
+		8825E7B5ADA1A3659692F1DF /* Pods_InfiniteProduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteProduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94FCCF66E52EA8520B829D47 /* Pods-InfiniteProduceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduceUITests.debug.xcconfig"; path = "Target Support Files/Pods-InfiniteProduceUITests/Pods-InfiniteProduceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B1B871FD7AF570ADADC2F0EE /* Pods-InfiniteProduceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduceTests.release.xcconfig"; path = "Target Support Files/Pods-InfiniteProduceTests/Pods-InfiniteProduceTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB66804431CE0E44BBEA2D5B /* Pods_InfiniteProduceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InfiniteProduceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98EB3481FBF71EE0060FEF5 /* InfiniteProduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteProduce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98EB34B1FBF71EE0060FEF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F98EB34D1FBF71EE0060FEF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F98EB3501FBF71EE0060FEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F98EB3521FBF71EE0060FEF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F98EB3551FBF71EE0060FEF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F98EB3571FBF71EE0060FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98EB35C1FBF71EE0060FEF5 /* InfiniteProduceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteProduceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98EB3601FBF71EE0060FEF5 /* InfiniteProduceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteProduceTests.swift; sourceTree = "<group>"; };
+		F98EB3621FBF71EE0060FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98EB3671FBF71EE0060FEF5 /* InfiniteProduceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteProduceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98EB36B1FBF71EE0060FEF5 /* InfiniteProduceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteProduceUITests.swift; sourceTree = "<group>"; };
+		F98EB36D1FBF71EE0060FEF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F98EB37A1FBF75B50060FEF5 /* Generally Speaking.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Generally Speaking.ttf"; sourceTree = "<group>"; };
+		F98EB37B1FBF75BF0060FEF5 /* LillyBelle_2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = LillyBelle_2.ttf; sourceTree = "<group>"; };
+		F98EB37C1FBF7A780060FEF5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F98EB37E1FBF8B4D0060FEF5 /* NotesViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewViewController.swift; sourceTree = "<group>"; };
+		F9BC6244230EAF59001C2575 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		F9BC6246230EC16F001C2575 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F9BC6248230ECBB2001C2575 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		F9BC624C230ECF83001C2575 /* todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo.swift; sourceTree = "<group>"; };
+		F9BC624E2313159B001C2575 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		F9F6F701CB496DE368E3BAA2 /* Pods-InfiniteProduce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InfiniteProduce.debug.xcconfig"; path = "Target Support Files/Pods-InfiniteProduce/Pods-InfiniteProduce.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F98EB3451FBF71EE0060FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BC6249230ECBB2001C2575 /* MessageUI.framework in Frameworks */,
+				F38DF4764DDF14A70D202F36 /* Pods_InfiniteProduce.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB3591FBF71EE0060FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				455BCEEF14F59113D6BD450C /* Pods_InfiniteProduceTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB3641FBF71EE0060FEF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7586AAC1E97B8F36C019B9B /* Pods_InfiniteProduceUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FD2FAED64775A2AFECE5E87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9BC6248230ECBB2001C2575 /* MessageUI.framework */,
+				8825E7B5ADA1A3659692F1DF /* Pods_InfiniteProduce.framework */,
+				819FA66BCE645B08D1A2B352 /* Pods_InfiniteProduceTests.framework */,
+				CB66804431CE0E44BBEA2D5B /* Pods_InfiniteProduceUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A464F7FADE8ECADEA5082030 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9F6F701CB496DE368E3BAA2 /* Pods-InfiniteProduce.debug.xcconfig */,
+				841819279FD8384596B9A2BA /* Pods-InfiniteProduce.release.xcconfig */,
+				3CE6270A3D41DC2C2FBAA53A /* Pods-InfiniteProduceTests.debug.xcconfig */,
+				B1B871FD7AF570ADADC2F0EE /* Pods-InfiniteProduceTests.release.xcconfig */,
+				94FCCF66E52EA8520B829D47 /* Pods-InfiniteProduceUITests.debug.xcconfig */,
+				30DE1A6C8B6C0A6E5790BC33 /* Pods-InfiniteProduceUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F98EB33F1FBF71EE0060FEF5 = {
+			isa = PBXGroup;
+			children = (
+				F98EB3791FBF74F50060FEF5 /* Fonts */,
+				F98EB34A1FBF71EE0060FEF5 /* InfiniteProduce */,
+				F98EB35F1FBF71EE0060FEF5 /* InfiniteProduceTests */,
+				F98EB36A1FBF71EE0060FEF5 /* InfiniteProduceUITests */,
+				F98EB3491FBF71EE0060FEF5 /* Products */,
+				A464F7FADE8ECADEA5082030 /* Pods */,
+				9FD2FAED64775A2AFECE5E87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F98EB3491FBF71EE0060FEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F98EB3481FBF71EE0060FEF5 /* InfiniteProduce.app */,
+				F98EB35C1FBF71EE0060FEF5 /* InfiniteProduceTests.xctest */,
+				F98EB3671FBF71EE0060FEF5 /* InfiniteProduceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F98EB34A1FBF71EE0060FEF5 /* InfiniteProduce */ = {
+			isa = PBXGroup;
+			children = (
+				F98EB34B1FBF71EE0060FEF5 /* AppDelegate.swift */,
+				F98EB34D1FBF71EE0060FEF5 /* ViewController.swift */,
+				F98EB34F1FBF71EE0060FEF5 /* Main.storyboard */,
+				F98EB3521FBF71EE0060FEF5 /* Assets.xcassets */,
+				F98EB3541FBF71EE0060FEF5 /* LaunchScreen.storyboard */,
+				F98EB3571FBF71EE0060FEF5 /* Info.plist */,
+				F9BC6246230EC16F001C2575 /* GoogleService-Info.plist */,
+				F98EB37C1FBF7A780060FEF5 /* TableViewCell.swift */,
+				F98EB37E1FBF8B4D0060FEF5 /* NotesViewViewController.swift */,
+				F9BC6244230EAF59001C2575 /* FirstViewController.swift */,
+				F9BC624C230ECF83001C2575 /* todo.swift */,
+				F9BC624E2313159B001C2575 /* ImageViewController.swift */,
+			);
+			path = InfiniteProduce;
+			sourceTree = "<group>";
+		};
+		F98EB35F1FBF71EE0060FEF5 /* InfiniteProduceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F98EB3601FBF71EE0060FEF5 /* InfiniteProduceTests.swift */,
+				F98EB3621FBF71EE0060FEF5 /* Info.plist */,
+			);
+			path = InfiniteProduceTests;
+			sourceTree = "<group>";
+		};
+		F98EB36A1FBF71EE0060FEF5 /* InfiniteProduceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F98EB36B1FBF71EE0060FEF5 /* InfiniteProduceUITests.swift */,
+				F98EB36D1FBF71EE0060FEF5 /* Info.plist */,
+			);
+			path = InfiniteProduceUITests;
+			sourceTree = "<group>";
+		};
+		F98EB3791FBF74F50060FEF5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F98EB37A1FBF75B50060FEF5 /* Generally Speaking.ttf */,
+				F98EB37B1FBF75BF0060FEF5 /* LillyBelle_2.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F98EB3471FBF71EE0060FEF5 /* InfiniteProduce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98EB3701FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduce" */;
+			buildPhases = (
+				9307577C5D158458F3C4DFDA /* [CP] Check Pods Manifest.lock */,
+				F98EB3441FBF71EE0060FEF5 /* Sources */,
+				F98EB3451FBF71EE0060FEF5 /* Frameworks */,
+				F98EB3461FBF71EE0060FEF5 /* Resources */,
+				9FC57C76D3E7BBE6A6B7237C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteProduce;
+			productName = InfiniteProduce;
+			productReference = F98EB3481FBF71EE0060FEF5 /* InfiniteProduce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F98EB35B1FBF71EE0060FEF5 /* InfiniteProduceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98EB3731FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduceTests" */;
+			buildPhases = (
+				6DF843CE1007377BFCBF3EBF /* [CP] Check Pods Manifest.lock */,
+				F98EB3581FBF71EE0060FEF5 /* Sources */,
+				F98EB3591FBF71EE0060FEF5 /* Frameworks */,
+				F98EB35A1FBF71EE0060FEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98EB35E1FBF71EE0060FEF5 /* PBXTargetDependency */,
+			);
+			name = InfiniteProduceTests;
+			productName = InfiniteProduceTests;
+			productReference = F98EB35C1FBF71EE0060FEF5 /* InfiniteProduceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F98EB3661FBF71EE0060FEF5 /* InfiniteProduceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F98EB3761FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduceUITests" */;
+			buildPhases = (
+				1425BDDD77A0EBAD6852AE9C /* [CP] Check Pods Manifest.lock */,
+				F98EB3631FBF71EE0060FEF5 /* Sources */,
+				F98EB3641FBF71EE0060FEF5 /* Frameworks */,
+				F98EB3651FBF71EE0060FEF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F98EB3691FBF71EE0060FEF5 /* PBXTargetDependency */,
+			);
+			name = InfiniteProduceUITests;
+			productName = InfiniteProduceUITests;
+			productReference = F98EB3671FBF71EE0060FEF5 /* InfiniteProduceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F98EB3401FBF71EE0060FEF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Malak Sadek";
+				TargetAttributes = {
+					F98EB3471FBF71EE0060FEF5 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+					};
+					F98EB35B1FBF71EE0060FEF5 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F98EB3471FBF71EE0060FEF5;
+					};
+					F98EB3661FBF71EE0060FEF5 = {
+						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F98EB3471FBF71EE0060FEF5;
+					};
+				};
+			};
+			buildConfigurationList = F98EB3431FBF71EE0060FEF5 /* Build configuration list for PBXProject "InfiniteProduce" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F98EB33F1FBF71EE0060FEF5;
+			productRefGroup = F98EB3491FBF71EE0060FEF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F98EB3471FBF71EE0060FEF5 /* InfiniteProduce */,
+				F98EB35B1FBF71EE0060FEF5 /* InfiniteProduceTests */,
+				F98EB3661FBF71EE0060FEF5 /* InfiniteProduceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F98EB3461FBF71EE0060FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98EB3561FBF71EE0060FEF5 /* LaunchScreen.storyboard in Resources */,
+				F98EB3811FBFA3230060FEF5 /* LillyBelle_2.ttf in Resources */,
+				F98EB3531FBF71EE0060FEF5 /* Assets.xcassets in Resources */,
+				F98EB3511FBF71EE0060FEF5 /* Main.storyboard in Resources */,
+				F98EB3801FBFA3200060FEF5 /* Generally Speaking.ttf in Resources */,
+				F9BC6247230EC16F001C2575 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB35A1FBF71EE0060FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98EB3821FBFA3240060FEF5 /* LillyBelle_2.ttf in Resources */,
+				F98EB3841FBFA3270060FEF5 /* Generally Speaking.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB3651FBF71EE0060FEF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98EB3831FBFA3250060FEF5 /* LillyBelle_2.ttf in Resources */,
+				F98EB3851FBFA3280060FEF5 /* Generally Speaking.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1425BDDD77A0EBAD6852AE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfiniteProduceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DF843CE1007377BFCBF3EBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfiniteProduceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9307577C5D158458F3C4DFDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InfiniteProduce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC57C76D3E7BBE6A6B7237C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InfiniteProduce/Pods-InfiniteProduce-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InfiniteProduce/Pods-InfiniteProduce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F98EB3441FBF71EE0060FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BC6245230EAF59001C2575 /* FirstViewController.swift in Sources */,
+				F98EB37D1FBF7A780060FEF5 /* TableViewCell.swift in Sources */,
+				F98EB34E1FBF71EE0060FEF5 /* ViewController.swift in Sources */,
+				F9BC624F2313159B001C2575 /* ImageViewController.swift in Sources */,
+				F9BC624D230ECF83001C2575 /* todo.swift in Sources */,
+				F98EB34C1FBF71EE0060FEF5 /* AppDelegate.swift in Sources */,
+				F98EB37F1FBF8B4D0060FEF5 /* NotesViewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB3581FBF71EE0060FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98EB3611FBF71EE0060FEF5 /* InfiniteProduceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F98EB3631FBF71EE0060FEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F98EB36C1FBF71EE0060FEF5 /* InfiniteProduceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F98EB35E1FBF71EE0060FEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98EB3471FBF71EE0060FEF5 /* InfiniteProduce */;
+			targetProxy = F98EB35D1FBF71EE0060FEF5 /* PBXContainerItemProxy */;
+		};
+		F98EB3691FBF71EE0060FEF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F98EB3471FBF71EE0060FEF5 /* InfiniteProduce */;
+			targetProxy = F98EB3681FBF71EE0060FEF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F98EB34F1FBF71EE0060FEF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98EB3501FBF71EE0060FEF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F98EB3541FBF71EE0060FEF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F98EB3551FBF71EE0060FEF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F98EB36E1FBF71EE0060FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F98EB36F1FBF71EE0060FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F98EB3711FBF71EE0060FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9F6F701CB496DE368E3BAA2 /* Pods-InfiniteProduce.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2B9HVC64J4;
+				INFOPLIST_FILE = InfiniteProduce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.IP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F98EB3721FBF71EE0060FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 841819279FD8384596B9A2BA /* Pods-InfiniteProduce.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
+				DEVELOPMENT_TEAM = 2B9HVC64J4;
+				INFOPLIST_FILE = InfiniteProduce/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.IP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F98EB3741FBF71EE0060FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE6270A3D41DC2C2FBAA53A /* Pods-InfiniteProduceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfiniteProduceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.InfiniteProduceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteProduce.app/InfiniteProduce";
+			};
+			name = Debug;
+		};
+		F98EB3751FBF71EE0060FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1B871FD7AF570ADADC2F0EE /* Pods-InfiniteProduceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfiniteProduceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.InfiniteProduceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteProduce.app/InfiniteProduce";
+			};
+			name = Release;
+		};
+		F98EB3771FBF71EE0060FEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94FCCF66E52EA8520B829D47 /* Pods-InfiniteProduceUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfiniteProduceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.InfiniteProduceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfiniteProduce;
+			};
+			name = Debug;
+		};
+		F98EB3781FBF71EE0060FEF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30DE1A6C8B6C0A6E5790BC33 /* Pods-InfiniteProduceUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InfiniteProduceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MS.InfiniteProduceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InfiniteProduce;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F98EB3431FBF71EE0060FEF5 /* Build configuration list for PBXProject "InfiniteProduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98EB36E1FBF71EE0060FEF5 /* Debug */,
+				F98EB36F1FBF71EE0060FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98EB3701FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98EB3711FBF71EE0060FEF5 /* Debug */,
+				F98EB3721FBF71EE0060FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98EB3731FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98EB3741FBF71EE0060FEF5 /* Debug */,
+				F98EB3751FBF71EE0060FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F98EB3761FBF71EE0060FEF5 /* Build configuration list for PBXNativeTarget "InfiniteProduceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F98EB3771FBF71EE0060FEF5 /* Debug */,
+				F98EB3781FBF71EE0060FEF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F98EB3401FBF71EE0060FEF5 /* Project object */;
+}
