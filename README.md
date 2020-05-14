@@ -8,7 +8,7 @@ The application allows the user to add new to do items, edit them later, delete 
 The structure of the database follows this shape: `Collection("Users").document(//UserID).Collection("Todos").document(//TodoID)`
 and each to do has a name, a note, a state (completed or not), and an order (for displaying).
 
-![picture alt](https://github.com/MalakSadek/StaticTimingAnalyzer/blob/master/OutputDAG.png "Output Report")
+![picture alt](https://github.com/MalakSadek/Infinite-Produce/blob/master/logo.png "Output Report")
 
 Screenshots and videos can be found here: https://malaksadek.wordpress.com/2019/08/31/infiniteproduce-do-everything/
 
