@@ -1,5 +1,5 @@
 # Infinite-Produce
-A To-Do List mobile application (2018).
+A To-Do List mobile application (2018)
 
 📖🖊 Infinite Produce is a To Do List mobile application implemented in `Java` for `Android` and in `Swift` for `iOS` as a personal project. It connects to `Firebase` for database management and image storage.
 
